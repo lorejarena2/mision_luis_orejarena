@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+}
+
+.barra{
+    height: 100%;
+    width: 20%;
+    background-color: rgba(201,35,27,255);
+}
+
+.espacio{
+    height: 100%;
+    width: 80%;
+
+}
+
+.cabecera{
+    width: 100%;
+    height: 15%;
+    display: flex;
+}
+
+.buscar{
+    width: 100%;
+    height: 10%;
+    display: flex;
+}
+
+.formulario{
+    width: 100%;
+    height: 85%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+form{
+    width: 100%;
+    height: 85%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px; 
+    gap: 30px;
+}
+
+.ico{
+    padding-top: 70px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.titulo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.titulo p{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+.uno{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+}
+
+.dos{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    gap: 30px;
+}
+
+.tres{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+}
+
+.cuatro{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+
+.boton{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    cursor: pointer;
+}
+.enviar{
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: #CC2233;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    
+
+}
+.dire{
+    display: flex;
+    flex-direction: column;
+}
+
+.nombre{
+display: flex;
+flex-direction: column;
+gap: 2px;
+}
+
+.two{
+    display: flex;
+    flex-direction: column;
+    gap: 2px; 
+}
+
+label{
+font-size: 16px;
+font-weight: 700;
+font-family: 'Inter';
+font-style: normal;
+}
+
+.input{
+    width: 350px;
+    height: 60px;
+    border-radius: 10px;
+    border: 2px solid #ED00D5;
+}
+
+
+
+.segundo{
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    border: 2px solid #ED00D5;
+}
+
+.tercero{
+    width: 800px;
+    height: 60px;
+    border-radius: 10px;
+    border: 2px solid #ED00D5;
+}
+
+
+

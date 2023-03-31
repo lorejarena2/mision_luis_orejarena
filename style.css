@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+}
+
+.barra{
+    height: 100%;
+    width: 20%;
+    background-color: rgba(201,35,27,255);
+}
+
+.espacio{
+    height: 100%;
+    width: 80%;
+
+}
+
+.cabecera{
+    width: 100%;
+    height: 15%;
+    display: flex;
+}
+
+.buscar{
+    width: 100%;
+    height: 10%;
+    display: flex;
+}
+
+.tabla{
+    width: 100%;
+    height: 75%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenido{
+    width: 1159px;
+    height: 40px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F3F6FB;
+}
+
+.item{
+    width: 1159px;
+    height: 40px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 200px;
+}
+
+.titulo p{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+.boton{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.crear{
+    width: 256px;
+    height: 50px;
+    border-radius: 20px;
+   background-color:  rgba(204,34,51,255);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 18px;
+   color: white;
+   font-weight: 700;
+   font-family: 'Inter';
+    font-style: normal;
+}
+
+.title{
+width: 20%;
+height: 100%;
+display: flex;
+}
+
+.usuario{
+    width: 80%;
+    height: 100%;
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+   justify-content: flex-end;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+.icono{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 25px;
+   
+}
+
+.pregunta{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+.bar{
+width: 70%;
+height: 100%;
+display: flex;
+align-items: center;
+}
+
+.filtrar{
+   width: 450px; 
+   height: 50px;
+   border-radius: 20px;
+   background-color: #F3F6FB;
+   border: 1px solid    ;
+}
+
+.area{
+    width: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Inter';
+    font-style: normal;
+    gap: 5px;
+}
+
+.are{
+    width: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter';
+    font-style: normal;
+    gap: 5px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.nombre{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Inter';
+    font-style: normal;
+    gap: 5px;
+}
+
+.nombr{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Inter';
+    font-style: normal;
+    gap: 5px;
+}
+
+.user{
+    width: 22%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Inter';
+    font-style: normal;
+    gap: 5px;
+}
+
+.use{
+    width: 22%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Inter';
+    font-style: normal;
+    gap: 5px;
+}
+
+.email{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Inter';
+    font-style: normal;
+    gap: 5px;
+}
+
+.emai{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Inter';
+    font-style: normal;
+    color: #C9231B;
+    gap: 5px;
+}
+
+.edad{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Inter';
+    font-style: normal;
+    gap: 5px;
+}
+
+.eda{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Inter';
+    font-style: normal;
+    gap: 5px;  
+}
+
+.filtro{
+    display: none;
+}
+
